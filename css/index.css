@@ -97,9 +97,9 @@ font-weight: 400;
 line-height: normal;
 border-radius: 5vmin;
 border-top: 1vmin solid #031520;
-border-right: 1px solid #031520;
+border-right: 2px solid #031520;
 border-bottom: 1vmin solid #031520;
-border-left: 1px solid #031520;
+border-left: 2px solid #031520;
 display: inline block;
 background: var(--primary, #D9D9D9);
 
@@ -140,8 +140,135 @@ border: 1vmin solid var(--accent, #6d6d6d)  ;
 background: var(--secondary, #dddddd);
 margin-top: 8vw;
 }
-@media only screen and (max-width: 1280px) {
-#header{
 
+/*/ komputer/*/
+
+@media only screen and (min-width: 1280px) {
+    body{
+        margin: 0;
+        background-color: #2b2b2b;
     }
-}
+    #header{
+    height: 9vmin;
+    font-size: 3vw;
+    font-style: small;
+    }
+    #profile{
+    width: 15vw;
+    height: 15vw;
+    flex-shrink: 0;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 100vw;
+    background-image: url("../img/00181.png");
+    background-repeat: no-repeat;
+    margin-top: 5vw;
+    margin-left: 5vw; 
+    background-size:cover;
+    }
+    #nama{
+    display: flex;
+    width: 55vw;
+    height: 28vmin;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    /* aaaa */
+    font-family: Mali;
+    font-size: 4vmin;
+    font-style: small;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5vw;
+    border-top: 1vmin solid #031520;
+    border-right: 2px solid #031520;
+    border-bottom: 1vmin solid #031520;
+    border-left: 2px solid #031520;
+    background: var(--primary, #D9D9D9);
+    margin-left: 6vw; 
+    margin-top: 5vw;
+    }
+    #liivo{
+    width: 15vw;
+    height: 15vw;
+    flex-shrink: 0;
+    background-image: url("../img/IMG_20230730_174055\(1\).jpg");
+    background-repeat: no-repeat;
+    margin:0%;
+    margin-top: 8vw;
+    background-size:cover;
+    border-radius: 100vw;
+    margin-bottom: 5vw;
+    flex-direction: column;
+    }
+    #instagram{
+    width: 18vw;
+    height: 1vmin;
+    padding-bottom: 3vw;
+    padding-top: 2vmin;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;color: #000;
+    font-family: Mali;
+    font-size: 4vmin;
+    font-style: small;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4vw;
+    border-top: 1vmin solid #031520;
+    border-right: 2px solid #031520;
+    border-bottom: 1vmin solid #031520;
+    border-left: 2px solid #031520;
+    display: inline block;
+    background: var(--primary, #D9D9D9);
+    
+    }
+    #instagram svg{
+    width: 5vw;
+    height: 5vmin;
+    display: flex;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    flex-shrink: 0;
+    margin: auto;
+    padding-left: 1vmin;
+    }
+    #join{
+        display: inline-block;
+        margin:auto;
+        padding-left: 1vw;
+    }
+    #footer{
+        display: flex;
+    width: 100vw;
+    height: 15vw;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #031520;
+    text-align: center;
+    
+    /* Ysabeau Infant */
+    font-family: Macondo Swash Caps;
+    font-size: 6vw;
+    font-style: small;
+    font-weight: 400;
+    line-height: normal;
+    border: 1vmin solid var(--accent, #6d6d6d)  ;
+    background: var(--secondary, #dddddd);
+    margin-top: 8vw;
+    }
+    #proliiv{
+        display: flex;
+        width: 100vw;
+    }
+    #liivjo{
+        display: flex;
+        width: 100vw;
+    }
+
+  }
+
