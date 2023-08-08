@@ -197,11 +197,11 @@ margin-top: 8vw;
     background-image: url("../img/IMG_20230730_174055\(1\).jpg");
     background-repeat: no-repeat;
     margin:0%;
-    margin-top: 8vw;
     background-size:cover;
     border-radius: 100vw;
-    margin-bottom: 5vw;
     flex-direction: column;
+    margin-top: 5vw;
+    margin-left: 5vw;
     }
     #instagram{
     width: 18vw;
